@@ -1,0 +1,45 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mindex ee065bb..487fc97 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -14,4 +14,7 @@[m [mdemos.[m
+ [m
+ ## Deployment[m
+ [m
+[32m+[m[32mThis is a simple web project, deployment can be on any web server or even local[m
+[32m+[m[32mfile system.[m
+[32m+[m
+ ## How To Contribute[m
+[1mdiff --git a/simple.html b/simple.html[m
+[1mindex ca5e908..307ff77 100644[m
+[1m--- a/simple.html[m
+[1m+++ b/simple.html[m
+[36m@@ -1,6 +1,7 @@[m
+ <!DOCTYPE html>[m
+[32m+[m
+ <head>[m
+[31m-	<title></title>[m
+[32m+[m	[32m<title>Simple Title</title>[m
+ 	<link rel="stylesheet" href="css/bootstrap.min.css">[m
+ 	<style>[m
+ 		body {[m
+[36m@@ -10,9 +11,10 @@[m
+ 	</style>[m
+ 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">[m
+ </head>[m
+[32m+[m
+ <body>[m
+ 	<main class="container">[m
+[31m-	<!-- Content Goes Here -->[m
+[32m+[m		[32m<!-- Content Goes Here -->[m
+ 		<p>[m
+ 			Just some content[m
+ 		</p>[m
+[36m@@ -21,4 +23,5 @@[m
+ 		<p>&copy; Company 2014</p>[m
+ 	</footer>[m
+ </body>[m
+[31m-</html>[m
+[32m+[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
